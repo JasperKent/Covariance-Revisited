@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CovarianceRevisited", "CovarianceRevisited\CovarianceRevisited.csproj", "{50A357E1-7AD3-4B0D-B46F-C4389F1DF855}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CovarianceRevisited.Tests", "CovarianceRevisited.Tests\CovarianceRevisited.Tests.csproj", "{701575CF-2872-40DF-BE6A-3DD792620CEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50A357E1-7AD3-4B0D-B46F-C4389F1DF855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50A357E1-7AD3-4B0D-B46F-C4389F1DF855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50A357E1-7AD3-4B0D-B46F-C4389F1DF855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50A357E1-7AD3-4B0D-B46F-C4389F1DF855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{701575CF-2872-40DF-BE6A-3DD792620CEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{701575CF-2872-40DF-BE6A-3DD792620CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{701575CF-2872-40DF-BE6A-3DD792620CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{701575CF-2872-40DF-BE6A-3DD792620CEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C105780-FC1C-4AC4-8454-0FEF7A43D0CE}
+	EndGlobalSection
+EndGlobal
