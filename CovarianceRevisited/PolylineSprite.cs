@@ -8,7 +8,7 @@ using System.Windows.Shapes;
 
 namespace CovarianceRevisited
 {
-    public class PolylineSprite : Sprite
+    public class PolylineSprite : Sprite<Polyline>
     {
         public PolylineSprite(Polyline shape, Point location) 
             : base(shape, location)
@@ -24,7 +24,7 @@ namespace CovarianceRevisited
                 double left = 0;
                 double right = 0;
 
-                foreach (Point p in ((Polyline)Shape).Points)
+                foreach (Point p in Shape.Points)
                 {
                     top = Math.Min(top, p.Y);
                     bottom = Math.Max(bottom, p.Y);

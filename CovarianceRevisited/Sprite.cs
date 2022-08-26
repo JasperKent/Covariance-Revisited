@@ -4,16 +4,16 @@ using System.Windows.Shapes;
 
 namespace CovarianceRevisited
 {
-    public abstract class Sprite
+    public abstract class Sprite<TShape> : ISprite<TShape> where TShape : Shape
     {
-        public Sprite(Shape shape, Point location)
+        public Sprite(TShape shape, Point location)
         {
             Shape = shape;
             Location = location;
         }
 
-        public Shape Shape { get; }
+        public TShape Shape { get; }
         public Point Location { get; }
-        public abstract Rect  BoundingBox { get; }
+        public abstract Rect BoundingBox { get; }
     }
 }

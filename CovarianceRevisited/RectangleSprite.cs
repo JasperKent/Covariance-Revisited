@@ -8,7 +8,7 @@ using System.Windows.Shapes;
 
 namespace CovarianceRevisited
 {
-    public class RectangleSprite : Sprite
+    public class RectangleSprite : Sprite<Rectangle>
     {
         public RectangleSprite(Rectangle shape, Point location) 
             : base(shape, location)
@@ -19,9 +19,7 @@ namespace CovarianceRevisited
         {
             get
             {
-                var asRect = (Rectangle)Shape;
-
-                return new Rect (Location, new Size (asRect.Width, asRect.Height));
+                return new Rect (Location, new Size (Shape.Width, Shape.Height));
             }
         }
     }
